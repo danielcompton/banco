@@ -19,7 +19,8 @@
                  [leiningen "2.5.0"]]
 
   :plugins [[lein-cljsbuild "1.0.3"]
-            [lein-environ "1.0.0"]]
+            [lein-environ "1.0.0"]
+            [lein-cloverage "1.0.4-SNAPSHOT"]]
 
   :min-lein-version "2.5.0"
 
