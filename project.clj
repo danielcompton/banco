@@ -20,7 +20,7 @@
 
   :plugins [[lein-cljsbuild "1.0.3"]
             [lein-environ "1.0.0"]
-            [lein-cloverage "1.0.5"]]
+            [lein-cloverage "1.0.2"]]
 
   :min-lein-version "2.5.0"
 

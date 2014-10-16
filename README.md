@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/danielcompton/banco.svg?branch=master)](https://travis-ci.org/danielcompton/banco) [![Coverage Status](https://img.shields.io/coveralls/danielcompton/banco.svg)](https://coveralls.io/r/danielcompton/banco)
+[![Build Status](https://travis-ci.org/danielcompton/banco.svg?branch=master)](https://travis-ci.org/danielcompton/banco) [![Coverage Status](https://img.shields.io/coveralls/danielcompton/banco.svg)](https://coveralls.io/r/danielcompton/banco?branch=master)
 
 # banco
 
