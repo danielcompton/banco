@@ -11,7 +11,7 @@
       (reify
         om/IRender
         (render [_]
-          (dom/h2 nil (calc/calculate-tax 100 100 100))
+          (dom/h2 nil 10 #_(calc/calculate-tax :nz :2013-2014 10000))
           #_(dom/h2 nil (:text app))
 
           )))
