@@ -1,5 +1,5 @@
 (ns banco.core
-  (:require #_[banco.calculations :as calc]
+  (:require [banco.calculations :as calc]
             [om.core :as om :include-macros true]
             [om.dom :as dom :include-macros true]))
 

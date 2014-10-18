@@ -20,7 +20,17 @@
 
   :plugins [[lein-cljsbuild "1.0.3"]
             [lein-environ "1.0.0"]
-            [lein-cloverage "1.0.2"]]
+            [lein-cloverage "1.0.2"]
+            [com.keminglabs/cljx "0.3.1"]]
+
+  :cljx {:builds [{:source-paths ["src/cljx"]
+                   :output-path "target/classes"
+                   :rules :clj}
+
+                  {:source-paths ["src/cljx"]
+                   :output-path "target/classes"
+                   :rules :cljs}]}
+  :hooks [cljx.hooks]
 
   :min-lein-version "2.5.0"
 
@@ -36,6 +46,8 @@
                                         :pretty-print  true}}}}
 
   :profiles {:dev {:repl-options {:init-ns banco.server
+                                  :welcome (println "Welcome to banco! Run (run) to start the web server and figwheel server
+                                  and (browser-repl) to drop into a browser REPL")
                                   :nrepl-middleware [cemerick.piggieback/wrap-cljs-repl]}
                    :plugins [[lein-figwheel "0.1.4-SNAPSHOT"]]
                    :figwheel {:http-server-root "public"
